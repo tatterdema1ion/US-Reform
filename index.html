@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Play|Russo+One" rel="stylesheet">
+<title>Home: Police and Housing Reform</title>
+<link rel="stylesheet" type="text/css" href=".\stylesheets\index">
+<script src="/assets/jquery.js"></script>
+</head>
+<body>
+  <header>
+  <h1>Police and Housing Reform</h1>
+<ul class='nav'>
+     <li><button class='nav'><a href="#">Legislation</a></button></li>
+     <li><button class='nav'><a href="#">Reform Efforts</a></button></li>
+     <li><button class='nav'><a href="#">State-Specific</a></button></li>
+   </ul>
+</header>
+<script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+  <script>$('div').on('click', function () {
+  $(this).toggleClass('show-description');
+  });
+</script>
+</body>
+</html>

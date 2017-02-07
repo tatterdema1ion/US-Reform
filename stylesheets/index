@@ -1,0 +1,54 @@
+/* header info */
+header {
+  height: 200px;
+  background: rgba(0,40,104,1);
+  background-size: cover;
+  background-position: center;
+  color: rgba(255,255,255,1);
+  font-family: 'Play', sans-serif;
+  font-size: 35px;
+  margin: -60px 0 0 0;
+  border-bottom-width: 10px;
+  border-bottom-color: rgba(212,175,55,1);
+  border-bottom-style: solid;
+}
+ul.nav li{
+    color: black;
+    display: inline-block;
+    padding: 10px 5px 0px 5px;
+    float: right;
+}
+ul.nav a {
+    color: black;
+}
+button.nav {
+  background: grey;
+  height: 50px;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Body*/
+body {
+font-family: 'Play', sans-serif;
+}
+h1 {
+font-family: 'Russo One', sans-serif;
+}
+
+/*For Mobile*/
+@media (max-width: 500px) {
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+div {
+  margin: 20px 12px 0 12px;
+}
+p {
+  font-size: 20px;
+  line-height: 24px;
+}
+}
